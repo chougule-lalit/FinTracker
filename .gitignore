@@ -1,0 +1,86 @@
+```gitignore
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.dll
+*.exe
+*.pdb
+.vs/
+.vscode/
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Angular
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
+node_modules/
+bower_components/
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
+yarn-error.log
+testem.log
+typings/
+.angular/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Production.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+```
